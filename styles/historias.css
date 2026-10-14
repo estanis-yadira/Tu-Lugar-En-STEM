@@ -1,0 +1,485 @@
+/*Estilos generales*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth; /* Desplazamiento suave al hacer click en los enlaces internos de la página */
+}
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    color: #282431;
+    line-height: 1.6;
+    background-color: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    font: inherit;
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 46px;
+    color: #000583;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+p {
+    color: #686474;
+}
+
+/* Texto pequeño en mayúsculas que va sobree el título del banner*/
+.etiqueta {
+    margin-bottom: 8px;
+    color: #8d24e8;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px; /*Interletrado*/
+}
+
+/*Estilos para el encabezado*/
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 12px 72px;
+}
+
+.encabezado-logo {
+    width: 135px;
+}
+
+.encabezado-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.encabezado-menu a {
+    font-size: 14px;
+}
+
+.encabezado-menu a:hover {
+    color: #8d24e8;
+}
+
+/*Estilos para los botones*/
+
+/*Estilos para el botón del encabezado y el boton principal*/
+.encabezado-boton,
+.boton-principal {
+    display: inline-block;
+    padding: 11px 22px;
+    border: none;
+    border-radius: 30px;
+    background-color: #8d24e8;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.encabezado-boton {
+    white-space: nowrap;
+}
+
+.encabezado-boton:hover,
+.boton-principal:hover {
+    background-color: #7415c7;
+}
+
+/*Estilos para el banner principal*/
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+    padding: 64px 100px;
+    background-color: #f7f2ff;
+}
+
+.hero-texto {
+    width: 55%;
+}
+
+.hero-texto p {
+    max-width: 560px;
+    margin-bottom: 22px;
+}
+
+.hero-imagen {
+    width: 45%;
+    max-height: 340px;
+    object-fit: contain; /*evita que la ilustración se deforme al limitar su alto */
+
+}
+
+/*Estilos para las secciones */
+.seccion {
+    padding: 60px 100px;
+}
+
+.seccion-titulo {
+    max-width: 720px;
+    margin: 0 auto 32px;
+    text-align: center;
+}
+
+/*Estilos para los botones que filtran por área STEM*/
+.filtros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 32px;
+}
+
+.filtro {
+    padding: 8px 18px;
+    border: 1px solid #e8e1ef;
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #282431;
+    font-size: 14px;
+}
+
+.filtro:hover {
+    border-color: #d9b8f6;
+    background-color: #f2e9ff;
+    color: #8d24e8;
+}
+
+/*Estilos para las tarjetas*/
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.tarjeta {
+    padding: 24px;
+    border: 1px solid #e8e1ef;
+    border-radius: 16px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.tarjeta:hover {
+    border-color: #cda5f1;
+}
+
+.tarjeta p {
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+/* Etiqueta que dice la especialidad de cada referente */
+.tarjeta .etiqueta {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+/*Estilos para los imágenes de los retratos de las referentes*/
+.tarjeta-retrato {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 16px;
+}
+
+.tarjeta-enlace {
+    color: #8d24e8;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.tarjeta-enlace:hover {
+    text-decoration: underline;
+}
+
+/* Reemplaza al enlace cuando la página de detalle aún no existe */
+.proximamente {
+    color: #9a95a6;
+    font-size: 13px;
+}
+
+/*Estilos para los banners de invitación */
+.invitacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 42px;
+    border-radius: 18px;
+    background-color: #f2e9ff;
+}
+
+.invitacion-texto {
+    width: 65%;
+}
+
+.invitacion-texto p {
+    max-width: 620px;
+    margin-bottom: 18px;
+}
+
+.invitacion-imagen {
+    width: 30%;
+    max-width: 260px;
+    max-height: 210px;
+    object-fit: contain;
+}
+
+/*Estilos para el pie de página*/
+.pie {
+    margin-top: 30px;
+    padding: 40px 100px 18px;
+    background-color: #f7f2ff;
+}
+
+.pie-contenido {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 40px;
+}
+
+.pie-marca img {
+    width: 140px;
+    margin-bottom: 12px;
+}
+
+.pie-marca p {
+    max-width: 290px;
+    font-size: 13px;
+}
+
+.pie-enlaces,
+.pie-redes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.pie h3 {
+    margin-bottom: 4px;
+    font-size: 15px;
+}
+
+.pie-enlaces a {
+    color: #686474;
+    font-size: 13px;
+}
+
+.pie-enlaces a:hover {
+    color: #8d24e8;
+}
+
+.redes-iconos {
+    display: flex;
+    gap: 12px;
+}
+
+.redes-iconos img {
+    width: 20px;
+    height: 20px;
+}
+
+.pie-derechos {
+    margin-top: 28px;
+    padding-top: 14px;
+    border-top: 1px solid #e0d4ef;
+    font-size: 12px;
+}
+
+/*Estilos para un tamaño de pantalla de tablet*/
+@media (max-width: 900px) {
+
+    /* Títulos un poco más pequeños */
+    h1 {
+        font-size: 38px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    /* el menú del encabezado baja a una segunda fila; logo y botón quedan arriba */
+    .encabezado {
+        flex-wrap: wrap;
+        padding: 16px 40px;
+    }
+
+    .encabezado-menu {
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        gap: 28px;
+    }
+
+    .hero {
+        gap: 32px;
+        padding: 44px 40px;
+    }
+
+    .seccion {
+        padding: 48px 40px;
+    }
+
+    /* las tarjetas pasan a tener 2 columnas */
+    .tarjetas {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .tarjeta {
+        padding: 18px;
+    }
+
+    .invitacion {
+        padding: 32px;
+    }
+
+    .pie {
+        padding: 36px 40px 18px;
+    }
+
+    .pie-contenido {
+        gap: 24px;
+    }
+}
+
+/*Estilos para un celular*/
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    /* En el encabezado, el logo, el botón y menú estan centrados uno debajo del otro;
+       los enlaces del menú también van uno sobre otro */
+    .encabezado {
+        flex-direction: column;
+        gap: 14px;
+        padding: 20px;
+    }
+
+    .encabezado-boton {
+        width: 100%;
+        max-width: 260px;
+        padding: 13px 22px;
+        font-size: 16px;
+    }
+
+    .encabezado-menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+    }
+
+    .encabezado-menu a {
+        padding: 6px 0;
+        font-size: 16px;
+    }
+
+    /* En el banner principal, estará todo en una columna y la ilustración pasa arriba del texto */
+    .hero {
+        flex-direction: column;
+        gap: 20px;
+        padding: 32px 20px;
+        text-align: center;
+    }
+
+    .hero-texto {
+        width: 100%;
+    }
+
+    .hero-texto p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-imagen {
+        order: -1;
+        width: 100%;
+        max-width: 320px;
+        max-height: 220px;
+    }
+
+    .seccion {
+        padding: 36px 20px;
+    }
+
+    /* Las tarjetas tendrán una sola columna */
+    .tarjetas {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    /* Los banners secundarios estarán en columna */
+    .invitacion {
+        flex-direction: column;
+        gap: 20px;
+        padding: 28px 20px;
+        text-align: center;
+    }
+
+    .invitacion-texto {
+        width: 100%;
+    }
+
+    .invitacion-imagen {
+        order: -1;
+        width: 65%;
+    }
+
+    /* Las tres columnas pasan a una sola */
+    .pie {
+        padding: 32px 20px 18px;
+    }
+
+    .pie-contenido {
+        grid-template-columns: 1fr;
+        gap: 26px;
+    }
+
+    .pie-derechos {
+        text-align: center;
+    }
+}

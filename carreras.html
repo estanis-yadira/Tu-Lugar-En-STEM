@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carreras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/carreras.css">
+</head>
+
+<body>
+    <!-- Encabezado con logo, menú de navegación y botón al test -->
+    <header class="encabezado">
+        <a href="index.html">
+            <img class="encabezado-logo" src="imagenes/logo/icon-logo.svg" alt="Tu Lugar en STEM">
+        </a>
+        <nav class="encabezado-menu">
+            <a href="index.html">Inicio</a>
+            <a href="carreras.html">Carreras</a>
+            <a href="historias.html">Historias</a>
+            <a href="explora-comienza.html">Explora y comienza</a>
+        </nav>
+        <a class="encabezado-boton" href="descubre-tu-camino.html">Descubre tu camino</a>
+    </header>
+
+    <main>
+        <!-- Hero con el banner principal de la sección-->
+        <section class="hero">
+            <div class="hero-texto">
+                <p class="etiqueta">CARRERAS</p>
+                <h1>Encuentra la carrera que va con tus intereses</h1>
+                <p>Conoce distintas opciones STEM, qué puedes aprender y cómo podrías aportar al mundo.</p>
+                <a class="boton-principal" href="#lista-carreras">Explorar carreras</a>
+            </div>
+            <img class="hero-imagen" src="imagenes/banners/chicas-abrazadas.svg"
+                alt="Jóvenes compartiendo sus intereses">
+        </section>
+
+        <!-- Lista de carreras -->
+        <section class="seccion" id="lista-carreras">
+            <div class="seccion-titulo">
+                <h2>Explora las carreras STEM</h2>
+                <p>Elige un área para encontrar opciones.</p>
+            </div>
+
+            <!-- Botones de filtro: por ahora no hacen nada, el filtrado se agregará con JavaScript -->
+            <div class="filtros">
+                <button class="filtro">Todas</button>
+                <button class="filtro">Tecnología</button>
+                <button class="filtro">Ingeniería</button>
+                <button class="filtro">Ciencia</button>
+                <button class="filtro">Matemáticas</button>
+            </div>
+
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <img class="tarjeta-imagen" src="imagenes/tarjetas/chica-software.svg" alt="Joven programando">
+                    <p class="etiqueta">TECNOLOGÍA</p>
+                    <h3>Ingeniería de Software</h3>
+                    <p>Diseña, desarrolla y mejora aplicaciones y sistemas digitales.</p>
+                    <a class="tarjeta-enlace" href="carrera-software.html">Conocer carrera →</a>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-imagen" src="imagenes/tarjetas/chica-ciencia.svg"
+                        alt="Joven trabajando con datos">
+                    <p class="etiqueta">TECNOLOGÍA</p>
+                    <h3>Ciencia de Datos</h3>
+                    <p>Analiza información para encontrar patrones y apoyar decisiones.</p>
+                    <span class="proximamente">Próximamente</span>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-imagen" src="imagenes/tarjetas/chica-ambiental.svg"
+                        alt="Joven en un entorno natural">
+                    <p class="etiqueta">INGENIERÍA</p>
+                    <h3>Ingeniería Ambiental</h3>
+                    <p>Desarrolla soluciones para proteger el ambiente y gestionar recursos.</p>
+                    <span class="proximamente">Próximamente</span>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-imagen" src="imagenes/tarjetas/chica-electronica.svg"
+                        alt="Joven trabajando en electrónica">
+                    <p class="etiqueta">INGENIERÍA</p>
+                    <h3>Ingeniería Electrónica</h3>
+                    <p>Trabaja con circuitos, dispositivos, automatización y sistemas electrónicos.</p>
+                    <span class="proximamente">Próximamente</span>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-imagen" src="imagenes/tarjetas/chica-mates.svg"
+                        alt="Joven resolviendo ejercicios">
+                    <p class="etiqueta">MATEMÁTICAS</p>
+                    <h3>Matemáticas Aplicadas</h3>
+                    <p>Aplica modelos matemáticos para estudiar y resolver problemas reales.</p>
+                    <span class="proximamente">Próximamente</span>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-imagen" src="imagenes/tarjetas/chica-biotec.svg" alt="Joven en un laboratorio">
+                    <p class="etiqueta">CIENCIA</p>
+                    <h3>Biotecnología</h3>
+                    <p>Combina biología y tecnología para desarrollar soluciones innovadoras.</p>
+                    <span class="proximamente">Próximamente</span>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-imagen" src="imagenes/tarjetas/chica-electronica.svg"
+                        alt="Joven trabajando con tecnología">
+                    <p class="etiqueta">TECNOLOGÍA</p>
+                    <h3>Ingeniería de Redes</h3>
+                    <p>Diseña y administra redes para conectar dispositivos y servicios.</p>
+                    <span class="proximamente">Próximamente</span>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-imagen" src="imagenes/tarjetas/chica-ciencia.svg" alt="Joven científica">
+                    <p class="etiqueta">CIENCIA</p>
+                    <h3>Ciencias Biológicas</h3>
+                    <p>Estudia los seres vivos, sus procesos y su relación con el entorno.</p>
+                    <span class="proximamente">Próximamente</span>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-imagen" src="imagenes/tarjetas/chica-software.svg"
+                        alt="Joven trabajando en un proyecto">
+                    <p class="etiqueta">INGENIERÍA</p>
+                    <h3>Ingeniería Industrial</h3>
+                    <p>Mejora procesos, recursos y sistemas para hacerlos más eficientes.</p>
+                    <span class="proximamente">Próximamente</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="seccion">
+            <div class="invitacion">
+                <div class="invitacion-texto">
+                    <h2>¿No sabes cuál elegir?</h2>
+                    <p>Responde un pequeño test sobre tus intereses y descubre qué área STEM podría gustarte más.</p>
+                    <a class="boton-principal" href="descubre-tu-camino.html">Descubre tu camino</a>
+                </div>
+                <img class="invitacion-imagen" src="imagenes/banners/donde-empezar.svg"
+                    alt="Joven pensando en su futuro">
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="pie">
+        <div class="pie-contenido">
+            <div class="pie-marca">
+                <img src="imagenes/logo/icon-logo.svg" alt="Tu Lugar en STEM">
+                <p>Una plataforma para adolescentes y jóvenes que quieren explorar, aprender e inspirarse en STEM.</p>
+            </div>
+            <nav class="pie-enlaces">
+                <h3>Secciones</h3>
+                <a href="index.html">Inicio</a>
+                <a href="carreras.html">Carreras</a>
+                <a href="historias.html">Historias</a>
+                <a href="explora-comienza.html">Explora y comienza</a>
+                <a href="descubre-tu-camino.html">Descubre tu camino</a>
+            </nav>
+            <div class="pie-redes">
+                <h3>Síguenos</h3>
+                <div class="redes-iconos">
+                    <a href="#"><img src="imagenes/icons/instagram.svg" alt="Instagram"></a>
+                    <a href="#"><img src="imagenes/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="imagenes/icons/tiktok.svg" alt="TikTok"></a>
+                    <a href="#"><img src="imagenes/icons/x.svg" alt="X"></a>
+                </div>
+            </div>
+        </div>
+        <p class="pie-derechos">Copyright © 2026 Tu Lugar en STEM. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

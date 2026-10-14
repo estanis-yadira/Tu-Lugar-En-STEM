@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+    <!-- Encabezado con logo, menú de navegación y botón al test -->
+    <header class="encabezado">
+        <a href="index.html">
+            <img class="encabezado-logo" src="imagenes/logo/icon-logo.svg" alt="Tu Lugar en STEM">
+        </a>
+        <nav class="encabezado-menu">
+            <a href="index.html">Inicio</a>
+            <a href="carreras.html">Carreras</a>
+            <a href="historias.html">Historias</a>
+            <a href="explora-comienza.html">Explora y comienza</a>
+        </nav>
+        <a class="encabezado-boton" href="descubre-tu-camino.html">Descubre tu camino</a>
+    </header>
+
+    <main>
+        <!-- Sección del hero (Banner principal de la sección) -->
+        <section class="hero">
+            <div class="hero-texto">
+                <p class="etiqueta">TU LUGAR ESTÁ AQUÍ</p>
+                <h1>Tu futuro podría estar en <span>STEM</span></h1>
+                <p>Explora carreras, conoce a mujeres que abrieron camino y encuentra recursos para comenzar a construir
+                    tu futuro.</p>
+                <div class="hero-botones">
+                    <a class="boton-explora" href="carreras.html">Explora carreras</a>
+                    <a class="boton-descubre" href="descubre-tu-camino.html">Descubre tu camino</a>
+                </div>
+            </div>
+            <img class="hero-imagen" src="imagenes/banners/chicas-stem.svg" alt="Jóvenes en distintas áreas STEM">
+        </section>
+
+        <!-- Sección por dónde quieres empezar -->
+        <section class="seccion">
+            <div class="seccion-titulo">
+                <h2>¿Por dónde quieres empezar?</h2>
+                <p>Da el primer paso a tu manera. Aquí encontrarás inspiración y herramientas para avanzar.</p>
+            </div>
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <img class="tarjeta-icono" src="imagenes/icons/birrete.svg" alt="birrete">
+                    <h3>Conoce las carreras</h3>
+                    <p>Descubre qué puedes estudiar, qué habilidades desarrollar y dónde podrías trabajar.</p>
+                    <a class="tarjeta-enlace" href="carreras.html">Explorar carreras →</a>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-icono" src="imagenes/icons/librp.svg" alt="libro">
+                    <h3>Historias inspiradoras</h3>
+                    <p>Conoce a mujeres que transformaron la ciencia y la tecnología con sus ideas.</p>
+                    <a class="tarjeta-enlace" href="historias.html">Leer historias →</a>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-icono" src="imagenes/icons/trofeo.svg" alt="trofeo">
+                    <h3>Explora y comienza</h3>
+                    <p>Encuentra cursos, becas, concursos, eventos y comunidades para dar tus primeros pasos.</p>
+                    <a class="tarjeta-enlace" href="explora-comienza.html">Ver oportunidades →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección del banner secundario 1-->
+        <section class="seccion">
+            <div class="invitacion">
+                <div class="invitacion-texto">
+                    <h2>No estás sola. Tu lugar también está en STEM.</h2>
+                    <p>Hay una comunidad de mujeres aprendiendo, investigando y creando. Tú también puedes ser parte de
+                        ella.</p>
+                    <a class="invitacion-boton" href="historias.html">Conoce sus historias</a>
+                </div>
+                <img class="invitacion-imagen" src="imagenes/banners/chicas-equipo.svg"
+                    alt="Chicas colaborando en un proyecto">
+            </div>
+        </section>
+
+        <!-- Sección de las áreas STEM a desarrollarte -->
+        <section class="seccion">
+            <div class="seccion-titulo">
+                <h2>Áreas STEM en las que puedes desarrollarte</h2>
+                <p>STEM reúne diferentes campos que ayudan a entender el mundo y crear soluciones.</p>
+            </div>
+            <div class="tarjetas" id="tarjetas-areas">
+                <article class="tarjeta">
+                    <img class="tarjeta-icono" src="imagenes/icons/planta.svg" alt="planta">
+                    <h3>Ciencia</h3>
+                    <p>Investiga cómo funciona el mundo y descubre nuevas respuestas.</p>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-icono" src="imagenes/icons/pc.svg" alt="computadora">
+                    <h3>Tecnología</h3>
+                    <p>Diseña herramientas digitales y crea soluciones con tecnología.</p>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-icono" src="imagenes/icons/cuaderno.svg" alt="cuaderno">
+                    <h3>Ingeniería</h3>
+                    <p>Construye, diseña y mejora sistemas, productos y procesos.</p>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-icono" src="imagenes/icons/matematicas.svg" alt="matematicas">
+                    <h3>Matemáticas</h3>
+                    <p>Usa el razonamiento y los datos para resolver problemas.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección del banner secundario 2-->
+        <section class="seccion">
+            <div class="invitacion">
+                <img class="invitacion-imagen" src="imagenes/banners/donde-empezar.svg"
+                    alt="Joven pensando en su futuro">
+                <div class="invitacion-texto">
+                    <h2>¿Todavía no sabes por dónde empezar?</h2>
+                    <p>Responde unas preguntas sobre tus intereses y descubre áreas STEM que podrían gustarte.</p>
+                    <a class="invitacion-boton" href="descubre-tu-camino.html">Encuentra tu camino</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="pie">
+        <div class="pie-contenido">
+            <div class="pie-marca">
+                <img src="imagenes/logo/icon-logo.svg" alt="Tu Lugar en STEM">
+                <p>Una plataforma para adolescentes y jóvenes que quieren explorar, aprender e inspirarse en STEM.</p>
+            </div>
+            <nav class="pie-enlaces">
+                <h3>Secciones</h3>
+                <a href="index.html">Inicio</a>
+                <a href="carreras.html">Carreras</a>
+                <a href="historias.html">Historias</a>
+                <a href="explora-comienza.html">Explora y comienza</a>
+                <a href="descubre-tu-camino.html">Descubre tu camino</a>
+            </nav>
+            <div class="pie-redes">
+                <h3>Síguenos</h3>
+                <div class="redes-iconos">
+                    <a href="">
+                        <img src="imagenes/icons/instagram.svg" alt="Instagram">
+                    </a>
+                    <a href="">
+                        <img src="imagenes/icons/facebook.svg" alt="Facebook">
+                    </a>
+                    <a href="">
+                        <img src="imagenes/icons/tiktok.svg" alt="TikTok">
+                    </a>
+                    <a href="">
+                        <img src="imagenes/icons/x.svg" alt="X">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="pie-derechos">Copyright © 2026 Tu Lugar en STEM. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

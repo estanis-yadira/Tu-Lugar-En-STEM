@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historias</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/historias.css">
+</head>
+
+<body>
+    <!-- Encabezado con logo, menú de navegación y botón al test -->
+    <header class="encabezado">
+        <a href="index.html">
+            <img class="encabezado-logo" src="imagenes/logo/icon-logo.svg" alt="Tu Lugar en STEM">
+        </a>
+        <nav class="encabezado-menu">
+            <a href="index.html">Inicio</a>
+            <a href="carreras.html">Carreras</a>
+            <a href="historias.html">Historias</a>
+            <a href="explora-comienza.html">Explora y comienza</a>
+        </nav>
+        <a class="encabezado-boton" href="descubre-tu-camino.html">Descubre tu camino</a>
+    </header>
+
+    <main>
+        <!-- Hero (banner principal)-->
+        <section class="hero">
+            <img class="hero-imagen" src="imagenes/banners/mujeres-inspiran.svg"
+                alt="Joven con mochila mirando hacia adelante">
+            <div class="hero-texto">
+                <p class="etiqueta">HISTORIAS</p>
+                <h1>Mujeres que inspiran</h1>
+                <p>Conoce a científicas, ingenieras y matemáticas que abrieron camino en STEM. Sus ideas cambiaron el
+                    mundo y todas empezaron igual que tú: con curiosidad.</p>
+                <a class="boton-principal" href="#lista-historias">Ver historias</a>
+            </div>
+        </section>
+
+        <!-- Lista de historias -->
+        <section class="seccion" id="lista-historias">
+            <div class="seccion-titulo">
+                <h2>Conoce sus historias</h2>
+                <p>Elige un área para conocer a las mujeres que la transformaron.</p>
+            </div>
+
+            <!-- Botones que filtraran las tarjetas -->
+            <div class="filtros">
+                <button class="filtro">Todos</button>
+                <button class="filtro">Ciencia</button>
+                <button class="filtro">Tecnología</button>
+                <button class="filtro">Ingeniería</button>
+                <button class="filtro">Matemáticas</button>
+            </div>
+
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <img class="tarjeta-retrato" src="imagenes/tarjetas/marie-curie.svg" alt="Marie Curie">
+                    <h3>Marie Curie</h3>
+                    <p class="etiqueta">FÍSICA Y QUÍMICA</p>
+                    <p>Fue la primera mujer en ganar un Premio Nobel y la única persona en ganarlo en dos ciencias
+                        distintas.</p>
+                    <a class="tarjeta-enlace" href="historia-marie.html">Leer historia →</a>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-retrato" src="imagenes/tarjetas/grace-hopper.svg" alt="Grace Hopper">
+                    <h3>Grace Hopper</h3>
+                    <p class="etiqueta">CIENCIAS DE LA COMPUTACIÓN</p>
+                    <p>Desarrolló el primer compilador, una herramienta que traduce las instrucciones que escribimos a
+                        código de máquina.</p>
+                    <span class="proximamente">Historia próximamente</span>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-retrato" src="imagenes/tarjetas/ada-lovelace.svg" alt="Ada Lovelace">
+                    <h3>Ada Lovelace</h3>
+                    <p class="etiqueta">MATEMÁTICAS Y COMPUTACIÓN</p>
+                    <p>Considerada la primera programadora de la historia por escribir el primer algoritmo pensado para
+                        una máquina.</p>
+                    <span class="proximamente">Historia próximamente</span>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-retrato" src="imagenes/tarjetas/mae-jemison.svg" alt="Mae Jemison">
+                    <h3>Mae Jemison</h3>
+                    <p class="etiqueta">INGENIERÍA Y ASTRONÁUTICA</p>
+                    <p>Rompió las barreras de la gravedad al convertirse en la primera mujer afroamericana en viajar al
+                        espacio.</p>
+                    <span class="proximamente">Historia próximamente</span>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-retrato" src="imagenes/tarjetas/tu-youyou.svg" alt="Tu Youyou">
+                    <h3>Tu Youyou</h3>
+                    <p class="etiqueta">QUÍMICA FARMACÉUTICA</p>
+                    <p>Combinó el método científico moderno con la medicina tradicional china para descubrir un
+                        tratamiento contra la malaria.</p>
+                    <span class="proximamente">Historia próximamente</span>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-retrato" src="imagenes/tarjetas/katherine-jonhson.svg" alt="Katherine Johnson">
+                    <h3>Katherine Johnson</h3>
+                    <p class="etiqueta">MATEMÁTICAS</p>
+                    <p>Sus cálculos fueron fundamentales para las misiones de la NASA y para la llegada del Apolo 11 a
+                        la Luna.</p>
+                    <span class="proximamente">Historia próximamente</span>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-retrato" src="imagenes/tarjetas/radia-perlman.svg" alt="Radia Perlman">
+                    <h3>Radia Perlman</h3>
+                    <p class="etiqueta">INGENIERÍA DE REDES</p>
+                    <p>Creó un protocolo que permite conectar redes de forma masiva y sentó bases para el funcionamiento
+                        de Internet.</p>
+                    <span class="proximamente">Historia próximamente</span>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-retrato" src="imagenes/tarjetas/rosalind-franklin.svg" alt="Rosalind Franklin">
+                    <h3>Rosalind Franklin</h3>
+                    <p class="etiqueta">QUÍMICA</p>
+                    <p>Capturó la famosa «Fotografía 51», la imagen de rayos X que ayudó a revelar la estructura del
+                        ADN.</p>
+                    <span class="proximamente">Historia próximamente</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="seccion">
+            <div class="invitacion">
+                <div class="invitacion-texto">
+                    <h2>¿Y si la próxima historia es la tuya?</h2>
+                    <p>Todas ellas empezaron haciéndose preguntas. Descubre qué área STEM conecta contigo y da tu primer
+                        paso.</p>
+                    <a class="boton-principal" href="descubre-tu-camino.html">Descubre tu camino</a>
+                </div>
+                <img class="invitacion-imagen" src="imagenes/banners/chicas-equipo.svg" alt="Jóvenes trabajando juntas">
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="pie">
+        <div class="pie-contenido">
+            <div class="pie-marca">
+                <img src="imagenes/logo/icon-logo.svg" alt="Tu Lugar en STEM">
+                <p>Una plataforma para adolescentes y jóvenes que quieren explorar, aprender e inspirarse en STEM.</p>
+            </div>
+            <nav class="pie-enlaces">
+                <h3>Secciones</h3>
+                <a href="index.html">Inicio</a>
+                <a href="carreras.html">Carreras</a>
+                <a href="historias.html">Historias</a>
+                <a href="explora-comienza.html">Explora y comienza</a>
+                <a href="descubre-tu-camino.html">Descubre tu camino</a>
+            </nav>
+            <div class="pie-redes">
+                <h3>Síguenos</h3>
+                <div class="redes-iconos">
+                    <a href="">
+                        <img src="imagenes/icons/instagram.svg" alt="Instagram">
+                    </a>
+                    <a href="">
+                        <img src="imagenes/icons/facebook.svg" alt="Facebook">
+                    </a>
+                    <a href="">
+                        <img src="imagenes/icons/tiktok.svg" alt="TikTok">
+                    </a>
+                    <a href="">
+                        <img src="imagenes/icons/x.svg" alt="X">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="pie-derechos">Copyright © 2026 Tu Lugar en STEM. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

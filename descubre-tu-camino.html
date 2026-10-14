@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubre tu camino</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/descubre-tu-camino.css">
+</head>
+
+<body>
+    <!-- Encabezado con logo, menú de navegación y botón al test -->
+    <header class="encabezado">
+        <a href="index.html">
+            <img class="encabezado-logo" src="imagenes/logo/icon-logo.svg" alt="Tu Lugar en STEM">
+        </a>
+        <nav class="encabezado-menu">
+            <a href="index.html">Inicio</a>
+            <a href="carreras.html">Carreras</a>
+            <a href="historias.html">Historias</a>
+            <a href="explora-comienza.html">Explora y comienza</a>
+        </nav>
+        <a class="encabezado-boton" href="descubre-tu-camino.html">Descubre tu camino</a>
+    </header>
+
+    <main>
+        <!-- Hero: aquí la imagen va primero para que quede a la izquierda y el texto a la derecha -->
+        <section class="hero">
+            <img class="hero-imagen" src="imagenes/banners/test.svg" alt="Joven pensando en su futuro en STEM">
+            <div class="hero-texto">
+                <p class="etiqueta">TU FUTURO EMPIEZA CON UNA PREGUNTA</p>
+                <h1>Descubre tu camino STEM</h1>
+                <p>Piensa en lo que te gusta, en cómo disfrutas resolver problemas y en los temas que despiertan tu curiosidad. No necesitas tenerlo todo decidido para empezar.</p>
+                <a class="boton-principal" href="#test">Empezar el test</a>
+            </div>
+        </section>
+
+        <!-- Pasos del test -->
+        <section class="seccion">
+            <div class="seccion-titulo">
+                <h2>¿Cómo funciona?</h2>
+                <p>Responde unas preguntas sencillas sobre tus intereses. Al final verás áreas que podrías explorar.</p>
+            </div>
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <img class="tarjeta-icono" src="imagenes/icons/responde.svg" alt="">
+                    <h3>Responde</h3>
+                    <p>Elige las opciones que más se parezcan a ti.</p>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-icono" src="imagenes/icons/descubre.svg" alt="">
+                    <h3>Descubre</h3>
+                    <p>Conoce las áreas STEM relacionadas con tus respuestas.</p>
+                </article>
+                <article class="tarjeta">
+                    <img class="tarjeta-icono" src="imagenes/icons/toma-accion.svg" alt="">
+                    <h3>Toma acción</h3>
+                    <p>Explora carreras y recursos para seguir investigando.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Test de intereses -->
+        <section class="seccion seccion-lila" id="test">
+            <div class="test">
+                <div class="seccion-titulo">
+                    <p class="etiqueta">TEST DE INTERESES</p>
+                    <h2>¿Qué tipo de actividades disfrutas más?</h2>
+                    <p>No es un examen ni determina tu futuro. Úsalo como una guía para explorar.</p>
+                </div>
+
+                <form>
+                    <fieldset>
+                        <legend>1. ¿Qué te gustaría hacer?</legend>
+                        <label>
+                            <input type="radio" name="pregunta1"> Investigar cómo funciona la naturaleza o el cuerpo humano.
+                        </label>
+                        <label>
+                            <input type="radio" name="pregunta1"> Crear aplicaciones, videojuegos o herramientas digitales.
+                        </label>
+                        <label>
+                            <input type="radio" name="pregunta1"> Diseñar o construir algo que resuelva un problema.
+                        </label>
+                        <label>
+                            <input type="radio" name="pregunta1"> Encontrar patrones, analizar datos y resolver desafíos lógicos.
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>2. ¿Qué actividad te llama más la atención?</legend>
+                        <label>
+                            <input type="radio" name="pregunta2"> Hacer experimentos y observar resultados.
+                        </label>
+                        <label>
+                            <input type="radio" name="pregunta2"> Aprender cómo funciona un programa o dispositivo.
+                        </label>
+                        <label>
+                            <input type="radio" name="pregunta2"> Imaginar cómo mejorar un objeto o sistema.
+                        </label>
+                        <label>
+                            <input type="radio" name="pregunta2"> Organizar información y descubrir relaciones.
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>3. ¿Qué problema preferirías resolver?</legend>
+                        <label>
+                            <input type="radio" name="pregunta3"> Comprender un fenómeno natural.
+                        </label>
+                        <label>
+                            <input type="radio" name="pregunta3"> Crear una solución digital para otras personas.
+                        </label>
+                        <label>
+                            <input type="radio" name="pregunta3"> Hacer que un proceso sea más útil o eficiente.
+                        </label>
+                        <label>
+                            <input type="radio" name="pregunta3"> Usar números y datos para tomar una decisión.
+                        </label>
+                    </fieldset>
+
+                    <div class="test-botones">
+                        <!-- El boton de "volver a empezar"borra lo marcado y "ver resultados" aun no hace nada-->
+                        <button class="boton-secundario" type="reset">Volver a empezar</button>
+                        <button class="boton-principal" type="button">Ver resultados</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="seccion">
+            <div class="invitacion">
+                <div class="invitacion-texto">
+                    <h2>Tu curiosidad es un buen comienzo</h2>
+                    <p>Conoce las carreras y encuentra recursos gratuitos para aprender más sobre el área que te interesa.</p>
+                    <a class="boton-principal" href="carreras.html">Explorar carreras</a>
+                </div>
+                <img class="invitacion-imagen" src="imagenes/banners/chicas-equipo.svg" alt="Jóvenes aprendiendo juntas">
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="pie">
+        <div class="pie-contenido">
+            <div class="pie-marca">
+                <img src="imagenes/logo/icon-logo.svg" alt="Tu Lugar en STEM">
+                <p>Una plataforma para adolescentes y jóvenes que quieren explorar, aprender e inspirarse en STEM.</p>
+            </div>
+            <nav class="pie-enlaces">
+                <h3>Secciones</h3>
+                <a href="index.html">Inicio</a>
+                <a href="carreras.html">Carreras</a>
+                <a href="historias.html">Historias</a>
+                <a href="explora-comienza.html">Explora y comienza</a>
+                <a href="descubre-tu-camino.html">Descubre tu camino</a>
+            </nav>
+            <div class="pie-redes">
+                <h3>Síguenos</h3>
+                <div class="redes-iconos">
+                    <a href="#">
+                        <img src="imagenes/icons/instagram.svg" alt="Instagram"></a>
+                    <a href="#">
+                        <img src="imagenes/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="#">
+                        <img src="imagenes/icons/tiktok.svg" alt="TikTok"></a>
+                    <a href="#">
+                        <img src="imagenes/icons/x.svg" alt="X"></a>
+                </div>
+            </div>
+        </div>
+        <p class="pie-derechos">Copyright © 2026 Tu Lugar en STEM. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
